@@ -42,11 +42,11 @@ query listUsers {
 }
 
 mutation createUser {
-  createUser(data: {
-  firstName: "barbara",
-  lastName: "Amem Duim",
-  email: "barbara@gmail.com",
-  active: true
+    createUser(data: {
+        firstName: "barbara",
+        lastName: "Amem Duim",
+        email: "barbara@gmail.com",
+        active: true
 }) {
     _id
     firstName
